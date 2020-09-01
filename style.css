@@ -1,3 +1,21 @@
 body {
-    background-image: url('./Pokecollection.jpg')
+    background-image: url('./Pokecollection.jpg');
+}
+#rootCtr {
+    position: relative;
+}
+h1 {
+    z-index: 100;
+}
+#inputType {
+    z-index: 100;
+}
+#submitBtn {
+    z-index: 100;
+}
+#name {
+    z-index: 100;
+}
+#abilities {
+    z-index: 100;
 }
