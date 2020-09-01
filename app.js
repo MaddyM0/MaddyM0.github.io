@@ -3,6 +3,9 @@
 
 $(() => {
         const $name  = $('#name');
+        const $abilities = $('#abilities');
+        const $pokéImg = $('.pokeImg');
+        
         $('#submitBtn').on('click', (event) => {
             event.preventDefault();
             const $userInput = $('#inputType').val();
@@ -21,8 +24,6 @@ $(() => {
 })
 //append data to modal div
 
-
-//succesfully pulled data /array of pokemon 
  
 //attempting to call on individual pokemon from array [0] to determine modal names such as height name etc..
 
