@@ -30,7 +30,7 @@ $(() => {
     })
 })
 
-$('#modal').append('body');
+$('body').append('#modal');
 
 //append data to modal div
 
