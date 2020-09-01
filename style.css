@@ -9,11 +9,13 @@ body {
 }
 h1 {
     white-space: nowrap;
+    font-family: 'Orbitron';
+    font-size: 28px;
 }
 #rootCtr {
     position: absolute;
     top: 200px;
-    left: 925px;
+    left: 605px;
     right: 0;
     z-index: 100;
     bottom: 0;
@@ -22,6 +24,12 @@ h1 {
 }
 #name , #abilities {
     width: 100px;
+    font-family: 'Orbitron';
 }
-
+#inputType {
+    width: 50%;
+}
+:placeholder-shown {
+    font-size: medium;
+}
 /* https://www.w3schools.com/cssref/pr_text_white-space.asp */
