@@ -20,8 +20,10 @@ $(() => {
             }
         ).then(
             (data) => {
-                console.log(data)
-                $('#name').html(data[0].name);
+                console.log(data.forms[0].name)
+                // $('#name').text(data.forms.name);
+                $('#nameInsert').text(data.forms[0].name);
+                $('#abilitiesInsert').text(data.abilities[0][0].name)
             },
             (error) => {
                 console.log(error)
@@ -30,7 +32,7 @@ $(() => {
     })
 })
 
-$('body').append('#modal');
+// $('body').append('#modal');
 
 //append data to modal div
 

@@ -15,8 +15,8 @@ h1 {
 #rootCtr {
     position: absolute;
     top: 200px;
-    left: 605px;
-    right: 0;
+    left: 845px;
+    right: 230px;
     z-index: 100;
     bottom: 0;
     display: flex;
@@ -28,7 +28,7 @@ h1 {
     padding: 10px;
 }
 #inputType {
-    width: 50%;
+    width: 60%;
 }
 :placeholder-shown {
     font-size: medium;
