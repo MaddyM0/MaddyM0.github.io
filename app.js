@@ -4,13 +4,16 @@
 $(() => {
         const $name  = $('#name');
         const $abilities = $('#abilities');
+        const $height = $('#height');
+        const $weight = $('#weight');
         const $pokéImg = $('.pokeImg');
 
         $('#submitBtn').on('click', (event) => {
             event.preventDefault();
             const $userInput = $('#inputType').val();
-        // Inside of this ajax request / add + userInput 
-        console.log($userInput);
+        $('#submitBtn').trigger('reset')
+            // Inside of this ajax request / add + userInput 
+            // console.log($userInput);
         $.ajax(
             {
                 url:'https://pokeapi.co/api/v2/pokemon/' + $userInput
@@ -18,6 +21,10 @@ $(() => {
         ).then(
             (data) => {
                 console.log(data)
+                $('#name').html(data[0].name);
+            },
+            (error) => {
+                console.log(error)
             }
         )
     })
