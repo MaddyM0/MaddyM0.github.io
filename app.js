@@ -23,7 +23,9 @@ $(() => {
                 console.log(data.forms[0].name)
                 // $('#name').text(data.forms.name);
                 $('#nameInsert').text(data.forms[0].name);
-                $('#abilitiesInsert').text(data.abilities[0][0].name)
+                $('#abilitiesInsert').text(data.abilities[0].ability.name);
+                $('#heightInsert').text(data.height);
+                $('#weightInsert').text(data.weight);
             },
             (error) => {
                 console.log(error)
