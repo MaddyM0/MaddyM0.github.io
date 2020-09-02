@@ -26,6 +26,7 @@ $(() => {
                 $('#abilitiesInsert').text(data.abilities[0].ability.name);
                 $('#heightInsert').text(data.height);
                 $('#weightInsert').text(data.weight);
+                $('#photoInsert').text(data.sprites[4].font_default);
             },
             (error) => {
                 console.log(error)
