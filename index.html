@@ -10,6 +10,10 @@
 </head>
 <body>
      <img id="pokedexBckground" src="./PokedexTransparentredo.png" />
+     <button id="openModal">About PokéDirectory</button>
+     <div id="modal">
+
+     </div>
         <div id="rootCtr">
             <h1>Select your Pokémon!</h1>
             <form>
@@ -17,9 +21,16 @@
                 <input type="submit" id="submitBtn" />
             </form>
                 <div id="modal">
+                    <div id="modal-textbox">
+                        <a href="#">Close</a>
+                        <h1>How to use the PokéDirectory</h1>
+                        <p><em>Welcome!</em> The PokéDirectory is a web application where a User can enter in a Pokémons name in the search bar and recieve statistics about that pokémon on the webpage (Photo of Pokémon,Name,Abilities,Height,Weight).</p>
+                    </div>
+                </div>
                     <div class="pokeImg">
                     <div id="photo">
-                        <h3 id="photoInsert"></h3>
+                        <img id="photoInsert" />
+
                     </div>
                     <div id="name">
                         <h3>Name: </h3>
