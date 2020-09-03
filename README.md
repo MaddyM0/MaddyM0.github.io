@@ -9,7 +9,12 @@ Future fixes/ add-ons - I'm hoping to add on sound effects per click and adding 
 *Technologies Used*
 ___________________
 
-- * HTML
-- * Javascript
-- * CSS
-- * JQuery
+-  HTML
+-  Javascript
+-  CSS
+-  JQuery
+___________________
+
+<img width="1317" alt="Screen Shot 2020-09-02 at 11 31 11 PM" src="https://user-images.githubusercontent.com/67092622/92079328-903b0e00-ed74-11ea-96bd-cae20f3a6bbc.png">
+<img width="1303" alt="Screen Shot 2020-09-02 at 11 31 26 PM" src="https://user-images.githubusercontent.com/67092622/92079348-97fab280-ed74-11ea-897c-0f2fde63739f.png">
+<img width="1253" alt="Screen Shot 2020-09-02 at 11 31 40 PM" src="https://user-images.githubusercontent.com/67092622/92079359-9a5d0c80-ed74-11ea-9eb8-becb11d5e64f.png">
