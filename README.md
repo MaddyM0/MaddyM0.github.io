@@ -21,6 +21,6 @@ ___________________
 -  JQuery
 ___________________
 
-<img width="1317" alt="Screen Shot 2020-09-02 at 11 31 11 PM" src="https://user-images.githubusercontent.com/67092622/92079328-903b0e00-ed74-11ea-96bd-cae20f3a6bbc.png">
-<img width="1303" alt="Screen Shot 2020-09-02 at 11 31 26 PM" src="https://user-images.githubusercontent.com/67092622/92079348-97fab280-ed74-11ea-897c-0f2fde63739f.png">
-<img width="1253" alt="Screen Shot 2020-09-02 at 11 31 40 PM" src="https://user-images.githubusercontent.com/67092622/92079359-9a5d0c80-ed74-11ea-9eb8-becb11d5e64f.png">
+<img width="1239" alt="Screen Shot 2020-09-02 at 11 40 52 PM" src="https://user-images.githubusercontent.com/67092622/92080121-de044600-ed75-11ea-8629-2c1c6a5e13f8.png">
+<img width="1265" alt="Screen Shot 2020-09-02 at 11 41 03 PM" src="https://user-images.githubusercontent.com/67092622/92080133-e2c8fa00-ed75-11ea-9b5f-f11542a0dac1.png">
+<img width="1264" alt="Screen Shot 2020-09-02 at 11 41 17 PM" src="https://user-images.githubusercontent.com/67092622/92080142-e52b5400-ed75-11ea-9725-2fd2fa601470.png">
