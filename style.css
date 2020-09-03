@@ -11,6 +11,7 @@ h1 {
     white-space: nowrap;
     font-family: 'Orbitron';
     font-size: 28px;
+    text-decoration: underline;
 }
 #rootCtr {
     position: absolute;
@@ -63,15 +64,22 @@ h1 {
     left: 286px;
 }
 #photoInsert {
-    top: 100px;
+    top: 80px;
     left: 160px;
     bottom: 400px;
     position: absolute;
     width: 400px;
 }
-
-
-
+#abilitiesInsert {
+    text-align: start;
+}
+#close {
+    font-size: larger;
+}
+#welcomeModal {
+    font-size: x-large;
+    text-decoration: underline;
+}
 /* https://fonts.google.com/specimen/Orbitron?sidebar.open=true&selection.family=Orbitron */
 
 /* https://stackoverflow.com/questions/649576/css-setting-background-image-in-css */
