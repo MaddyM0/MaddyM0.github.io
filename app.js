@@ -1,3 +1,24 @@
+$( () => {
+    const $openBtn = $('#openModal');
+    const $modal = $('#modal');
+    const $closeBtn = $('#close');
+
+    const openModal = () => {
+        // $modal.css('display', 'block');
+        $('#modal').css('display', 'block');
+        // $modal.show();
+    }
+    const closeModal = () => {
+        $modal.css('display', 'none');
+    }
+    $openBtn.on('click', openModal);
+    $closeBtn.on('click', closeModal);
+
+    // setTimeout(openModal, 1000);
+});
+
+
+
 $(() => {
         $('#submitBtn').on('click', (event) => {
             event.preventDefault();
@@ -10,7 +31,6 @@ $(() => {
         ).then(
             (data) => {
                 console.log(data.forms[0].name)
-                // $('#name').text(data.forms.name);
                 $('#nameInsert').text(data.forms[0].name);
                 $('#abilitiesInsert').text(data.abilities[0].ability.name);
                 $('#heightInsert').text(data.height);
@@ -36,6 +56,7 @@ $(() => {
 // const $height = $('#height');
 // const $weight = $('#weight');
 // const $pokéImg = $('.pokeImg');
+// $('#name').text(data.forms.name);
 // Inside of this ajax request / add + userInput 
 // console.log($userInput);
 //append data to modal div

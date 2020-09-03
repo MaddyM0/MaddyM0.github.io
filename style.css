@@ -3,9 +3,9 @@ body {
     position: relative;
 }
 #pokedexBckground {
-    width: 80%;
+    width: 1000px;
     height: 90%;
-    margin-left: 130px;
+    margin: 0 120px;
 }
 h1 {
     white-space: nowrap;
@@ -14,10 +14,10 @@ h1 {
 }
 #rootCtr {
     position: absolute;
-    top: 200px;
-    left: 845px;
-    right: 230px;
-    z-index: 100;
+    top: 153px;
+    left: 681px;
+    right: 96px;
+    z-index: 1;
     bottom: 0;
     display: flex;
     flex-direction: column;
@@ -25,14 +25,52 @@ h1 {
 #name , #abilities , #height , #weight {
     width: 100px;
     font-family: 'Orbitron';
+    font-size: x-large;
     padding: 10px;
 }
 #inputType {
-    width: 60%;
+    width: 300px;
 }
 :placeholder-shown {
     font-size: medium;
 }
+
+#modal {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    overflow: auto;
+}
+#modal-textbox {
+    background-color: whitesmoke;
+    height: 350px;
+    width: 550px;
+    border-radius: 15px;
+    margin: 150px auto;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    z-index: 3;
+    display: block;
+}
+#openModal {
+    position: absolute;
+    top: 590px;
+    left: 286px;
+}
+#photoInsert {
+    top: 100px;
+    left: 160px;
+    bottom: 400px;
+    position: absolute;
+    width: 400px;
+}
+
+
 
 /* https://fonts.google.com/specimen/Orbitron?sidebar.open=true&selection.family=Orbitron */
 

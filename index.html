@@ -10,9 +10,9 @@
 </head>
 <body>
      <img id="pokedexBckground" src="./PokedexTransparentredo.png" />
-     <button id="openModal">About PokéDirectory</button>
-     <div id="modal">
-
+     <div class="pokeImg" id="photo">
+        <img id="photoInsert" />
+    </div>
      </div>
         <div id="rootCtr">
             <h1>Select your Pokémon!</h1>
@@ -20,35 +20,35 @@
                 <input id="inputType" type="text" placeholder="Enter Pokémon Name Here" />
                 <input type="submit" id="submitBtn" />
             </form>
-                <div id="modal">
-                    <div id="modal-textbox">
-                        <a href="#">Close</a>
-                        <h1>How to use the PokéDirectory</h1>
-                        <p><em>Welcome!</em> The PokéDirectory is a web application where a User can enter in a Pokémons name in the search bar and recieve statistics about that pokémon on the webpage (Photo of Pokémon,Name,Abilities,Height,Weight).</p>
-                    </div>
-                </div>
-                    <div class="pokeImg">
-                    <div id="photo">
-                        <img id="photoInsert" />
-
-                    </div>
                     <div id="name">
-                        <h3>Name: </h3>
-                        <h3 id="nameInsert"></h3>
+                        <div>Name: </div>
+                        <div id="nameInsert"></div>
                     </div>
                     <div id="abilities">
-                        <h3>Abilities: </h3>
-                        <h3 id="abilitiesInsert"></h3>
+                        <div>Abilities: </div>
+                        <div id="abilitiesInsert"></div>
                     </div>
                     <div id="height">
-                        <h3>Height: </h3>
-                        <h3 id="heightInsert"></h3>
+                        <div>Height: </div>
+                        <div id="heightInsert"></div>
                     </div>
                     <div id="weight">
-                        <h3>Weight: </h3>
-                        <h3 id="weightInsert"></h3>
+                        <div>Weight: </div>
+                        <div id="weightInsert"></div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <button id="openModal">About PokéDirectory</button>
+        <div id="modal">
+            <div id="modal-textbox">
+                <a href="#" id="close">Close</a>
+                <h1>How to use the PokéDirectory</h1>
+                <p><em>Welcome!</em></p>
+                <p>The PokéDirectory is a web application where a User can enter in a Pokémons name in the search bar and recieve statistics about that pokémon on the webpage (Photo of Pokémon,Name, Abilities, Height, Weight).</p>
+                <p>Users can select from the first 1,050 Pokemon.</p>
+                <p>https://pokeapi.co/api/v2/pokemon/</p>
+                <p>*At the moment , the application <em>is case sensitive.*</em></p>
             </div>
         </div>
     </body>
